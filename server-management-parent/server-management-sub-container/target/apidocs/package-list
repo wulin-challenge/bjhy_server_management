@@ -1,0 +1,4 @@
+org.apel.server.management.sub.container.core
+org.apel.server.management.sub.container.restful
+org.apel.server.management.sub.container.util
+org.apel.server.management.sub.container.watcher

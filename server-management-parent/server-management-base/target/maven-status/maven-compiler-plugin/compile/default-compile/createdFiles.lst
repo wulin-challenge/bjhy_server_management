@@ -1,0 +1,4 @@
+org\apel\server\management\base\domain\ApplicationDeploy.class
+org\apel\server\management\base\domain\TransferAgent.class
+org\apel\server\management\base\ManagementWebConfig.class
+org\apel\server\management\base\domain\AgentInfo.class

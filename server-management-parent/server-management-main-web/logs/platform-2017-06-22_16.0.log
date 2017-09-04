@@ -1,0 +1,665 @@
+2017-06-22 16:21:47,058 INFO [main] o.a.s.m.main.web.test.StartMainWeb [StartupInfoLogger.java : 48] Starting StartMainWeb on wulin with PID 6640 (D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-main-web\target\test-classes started by Administrator in D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-main-web)
+2017-06-22 16:21:47,111 INFO [main] o.a.s.m.main.web.test.StartMainWeb [SpringApplication.java : 637] No active profile set, falling back to default profiles: default
+2017-06-22 16:21:47,331 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d31064: startup date [Thu Jun 22 16:21:47 CST 2017]; root of context hierarchy
+2017-06-22 16:21:47,789 INFO [background-preinit] o.h.validator.internal.util.Version [Version.java : 30] HV000001: Hibernate Validator 5.3.4.Final
+2017-06-22 16:21:50,320 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-main-web\target\classes\META-INF\spring\module-server-management-main-web.xml]
+2017-06-22 16:21:50,862 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-main-container\target\classes\META-INF\spring\module-server-management-main-container.xml]
+2017-06-22 16:21:50,990 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-common\target\classes\META-INF\spring\module-server-management-common.xml]
+2017-06-22 16:21:51,050 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-base\target\classes\META-INF\spring\module-server-management-base.xml]
+2017-06-22 16:21:51,127 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-property-loader/1.0.1-SNAPSHOT/gaia-property-loader-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-property-loader.xml]
+2017-06-22 16:21:51,170 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-persist/1.0.1-SNAPSHOT/gaia-persist-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-persist.xml]
+2017-06-22 16:21:51,398 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-infrastructure/1.0.1-SNAPSHOT/gaia-infrastructure-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-gaia-infrastructure.xml]
+2017-06-22 16:21:51,449 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/poseidon-security-commons/1.0.2-SNAPSHOT/poseidon-security-commons-1.0.2-SNAPSHOT.jar!/META-INF/spring/module-poseidon-common.xml]
+2017-06-22 16:21:51,493 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-boot.xml]
+2017-06-22 16:21:51,577 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-mvc.xml]
+2017-06-22 16:21:51,708 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-js-lib/1.0.1-SNAPSHOT/gaia-js-lib-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-js-lib.xml]
+2017-06-22 16:21:52,660 INFO [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultListableBeanFactory.java : 828] Overriding bean definition for bean 'org.springframework.transaction.config.internalTransactionAdvisor' with a different definition: replacing [Root bean: class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration; factoryMethodName=transactionAdvisor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]]
+2017-06-22 16:21:52,679 INFO [main] o.s.c.a.ConfigurationClassBeanDefinitionReader [ConfigurationClassBeanDefinitionReader.java : 298] Skipping bean definition for [BeanMethod:name=transactionalEventListenerFactory,declaringClass=org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration]: a definition for bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory' already exists. This top-level bean definition is considered as an override.
+2017-06-22 16:21:53,121 INFO [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultListableBeanFactory.java : 828] Overriding bean definition for bean 'entityManagerFactory' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration; factoryMethodName=entityManagerFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=jpaConfig; factoryMethodName=entityManagerFactory; initMethodName=null; destroyMethodName=(inferred); defined in org.apel.gaia.persist.config.hibernate.JpaConfig]
+2017-06-22 16:21:53,143 INFO [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultListableBeanFactory.java : 828] Overriding bean definition for bean 'transactionManager' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration; factoryMethodName=transactionManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=txConfig; factoryMethodName=transactionManager; initMethodName=null; destroyMethodName=(inferred); defined in org.apel.gaia.persist.config.hibernate.TxConfig]
+2017-06-22 16:21:55,880 INFO [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultListableBeanFactory.java : 828] Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.EmbeddedDataSourceConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/EmbeddedDataSourceConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DBConfig; factoryMethodName=dataSource; initMethodName=init; destroyMethodName=close; defined in org.apel.gaia.persist.config.db.DBConfig]
+2017-06-22 16:21:56,771 WARN [main] o.s.c.a.ConfigurationClassEnhancer [ConfigurationClassEnhancer.java : 350] @Bean method CenterPropertyLoader.propertyPlaceholderConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2017-06-22 16:21:57,497 WARN [main] o.h.v.m.ParameterMessageInterpolator [ParameterMessageInterpolator.java : 28] HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-06-22 16:21:58,119 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc357a89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-06-22 16:21:58,598 WARN [main] o.h.v.m.ParameterMessageInterpolator [ParameterMessageInterpolator.java : 28] HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-06-22 16:21:59,118 INFO [main] org.eclipse.jetty.util.log [Log.java : 192] Logging initialized @15606ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-06-22 16:22:00,539 INFO [main] o.s.b.c.e.j.JettyEmbeddedServletContainerFactory [JettyEmbeddedServletContainerFactory.java : 176] Server initialized with port: 6555
+2017-06-22 16:22:00,547 INFO [main] org.eclipse.jetty.server.Server [Server.java : 372] jetty-9.4.2.v20170220
+2017-06-22 16:22:01,048 INFO [main] org.eclipse.jetty.server.session [DefaultSessionIdManager.java : 360] DefaultSessionIdManager workerName=node0
+2017-06-22 16:22:01,050 INFO [main] org.eclipse.jetty.server.session [DefaultSessionIdManager.java : 365] No SessionScavenger set, using defaults
+2017-06-22 16:22:01,056 INFO [main] org.eclipse.jetty.server.session [HouseKeeper.java : 146] Scavenging every 600000ms
+2017-06-22 16:22:01,078 INFO [main] o.e.jetty.ContextHandler.application [ContextHandler.java : 2207] Initializing Spring embedded WebApplicationContext
+2017-06-22 16:22:01,079 INFO [main] o.s.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 13748 ms
+2017-06-22 16:22:01,652 INFO [main] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-22 16:22:01,660 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-22 16:22:01,662 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-22 16:22:01,662 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-22 16:22:01,663 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-22 16:22:01,664 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'customUrlDecisionFilter' to: [/*]
+2017-06-22 16:22:03,194 INFO [main] o.e.j.server.handler.ContextHandler [ContextHandler.java : 802] Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@1615b2e{/main-container,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.6650524659183953092.6555/],AVAILABLE}
+2017-06-22 16:22:03,195 INFO [main] org.eclipse.jetty.server.Server [Server.java : 444] Started @19683ms
+2017-06-22 16:22:07,446 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 669] {dataSource-1} inited
+2017-06-22 16:22:07,453 INFO [Druid-ConnectionPool-Log-26581772] c.a.d.p.DruidDataSourceStatLoggerImpl [DruidDataSourceStatLoggerImpl.java : 77] {"url":"jdbc:mysql://192.168.0.94:3306/dsgc?useUnicode=true&characterEncoding=utf8&pinGlobalTxToPhysicalConnection=true","dbType":"mysql","name":"DataSource-26581772","activeCount":0,"poolingCount":1,"poolingPeak":1,"poolingPeakTime":"2017-06-22 16:22:07","connectCount":0,"closeCount":0,"physicalConnectCount":1}
+2017-06-22 16:22:08,662 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java : 349] Building JPA container EntityManagerFactory for persistence unit 'platform'
+2017-06-22 16:22:08,796 INFO [main] o.h.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: platform
+	...]
+2017-06-22 16:22:09,294 INFO [main] org.hibernate.Version [Version.java : 37] HHH000412: Hibernate Core {5.0.12.Final}
+2017-06-22 16:22:09,301 INFO [main] org.hibernate.cfg.Environment [Environment.java : 213] HHH000206: hibernate.properties not found
+2017-06-22 16:22:09,343 INFO [main] org.hibernate.cfg.Environment [Environment.java : 317] HHH000021: Bytecode provider name : javassist
+2017-06-22 16:22:09,735 INFO [main] o.h.annotations.common.Version [JavaReflectionManager.java : 66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-06-22 16:22:10,619 INFO [main] org.hibernate.dialect.Dialect [Dialect.java : 156] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-06-22 16:22:12,437 INFO [main] o.h.cache.spi.UpdateTimestampsCache [UpdateTimestampsCache.java : 55] HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-06-22 16:22:12,449 WARN [main] o.h.c.e.AbstractEhcacheRegionFactory [AbstractEhcacheRegionFactory.java : 161] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-06-22 16:22:12,601 INFO [main] o.h.c.internal.StandardQueryCache [StandardQueryCache.java : 74] HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-06-22 16:22:12,604 WARN [main] o.h.c.e.AbstractEhcacheRegionFactory [AbstractEhcacheRegionFactory.java : 161] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-06-22 16:22:13,722 INFO [main] o.h.tool.hbm2ddl.SchemaUpdate [SchemaUpdate.java : 105] HHH000228: Running hbm2ddl schema update
+2017-06-22 16:22:14,835 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 379] Initialized JPA EntityManagerFactory for persistence unit 'platform'
+2017-06-22 16:22:16,137 INFO [main] o.h.h.i.QueryTranslatorFactoryInitiator [QueryTranslatorFactoryInitiator.java : 47] HHH000397: Using ASTQueryTranslatorFactory
+2017-06-22 16:22:20,202 INFO [main] o.s.u.f.SpringTemplateLoader [SpringTemplateLoader.java : 61] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d31064: startup date [Thu Jun 22 16:21:47 CST 2017]; root of context hierarchy] and template loader path [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/platform/templates/]
+2017-06-22 16:22:20,204 INFO [main] o.s.u.f.SpringTemplateLoader [SpringTemplateLoader.java : 61] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d31064: startup date [Thu Jun 22 16:21:47 CST 2017]; root of context hierarchy] and template loader path [classpath:/templates/]
+2017-06-22 16:22:20,208 INFO [main] o.s.w.s.v.f.FreeMarkerConfigurer [FreeMarkerConfigurer.java : 127] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-06-22 16:22:20,680 INFO [net.sf.ehcache.CacheManager@8ca7af] net.sf.ehcache.util.UpdateChecker [UpdateChecker.java : 98] New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-06-22 16:22:21,795 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java : 534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d31064: startup date [Thu Jun 22 16:21:47 CST 2017]; root of context hierarchy
+2017-06-22 16:22:22,182 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/index],methods=[GET]}" onto public java.lang.String org.apel.server.management.main.web.AppAndAgentController.index()
+2017-06-22 16:22:22,186 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/{id}],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.AppAndAgentController.delete(java.lang.String)
+2017-06-22 16:22:22,187 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/{id}],methods=[PUT]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.AppAndAgentController.create(java.lang.String,org.apel.server.management.main.container.domain.AppAndAgent)
+2017-06-22 16:22:22,188 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent],methods=[POST]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.AppAndAgentController.create(org.apel.server.management.main.container.domain.AppAndAgent)
+2017-06-22 16:22:22,189 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent]}" onto public org.apel.gaia.commons.pager.PageBean org.apel.server.management.main.web.AppAndAgentController.list(org.apel.gaia.commons.jqgrid.QueryParams)
+2017-06-22 16:22:22,190 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/{id}],methods=[GET]}" onto public org.apel.server.management.main.container.domain.AppAndAgent org.apel.server.management.main.web.AppAndAgentController.view(java.lang.String)
+2017-06-22 16:22:22,190 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/deploy/{id}],methods=[GET]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.AppAndAgentController.deploy(java.lang.String)
+2017-06-22 16:22:22,191 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/getStartStatus]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.AppAndAgentController.getStartStatus()
+2017-06-22 16:22:22,192 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/getAllAgent],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.AppAndAgentController.getAllAgent()
+2017-06-22 16:22:22,194 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/getAllAppVersion],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.AppAndAgentController.getAllAppVersion(java.lang.String)
+2017-06-22 16:22:22,195 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.AppAndAgentController.batchDelete(java.lang.String[])
+2017-06-22 16:22:22,196 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/getAllApplication],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.AppAndAgentController.getAllApplication()
+2017-06-22 16:22:22,197 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/all],methods=[GET]}" onto public java.util.List<org.apel.server.management.main.container.domain.AppAndAgent> org.apel.server.management.main.web.AppAndAgentController.getAll()
+2017-06-22 16:22:22,209 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/index],methods=[GET]}" onto public java.lang.String org.apel.server.management.main.web.ApplicationAgentController.index()
+2017-06-22 16:22:22,210 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/{id}],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationAgentController.delete(java.lang.String)
+2017-06-22 16:22:22,211 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/{id}],methods=[PUT]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationAgentController.create(java.lang.String,org.apel.server.management.main.container.domain.ApplicationAgent)
+2017-06-22 16:22:22,212 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent],methods=[POST]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationAgentController.create(org.apel.server.management.main.container.domain.ApplicationAgent)
+2017-06-22 16:22:22,213 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent]}" onto public org.apel.gaia.commons.pager.PageBean org.apel.server.management.main.web.ApplicationAgentController.list(org.apel.gaia.commons.jqgrid.QueryParams)
+2017-06-22 16:22:22,214 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/{id}],methods=[GET]}" onto public org.apel.server.management.main.container.domain.ApplicationAgent org.apel.server.management.main.web.ApplicationAgentController.view(java.lang.String)
+2017-06-22 16:22:22,215 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationAgentController.batchDelete(java.lang.String[])
+2017-06-22 16:22:22,216 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/getAgentStatus],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.ApplicationAgentController.getAgentStatus()
+2017-06-22 16:22:22,217 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/all],methods=[GET]}" onto public java.util.List<org.apel.server.management.main.container.domain.ApplicationAgent> org.apel.server.management.main.web.ApplicationAgentController.getAll()
+2017-06-22 16:22:22,226 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/index],methods=[GET]}" onto public java.lang.String org.apel.server.management.main.web.ApplicationController.index()
+2017-06-22 16:22:22,227 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/{id}],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationController.delete(java.lang.String)
+2017-06-22 16:22:22,229 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/{id}],methods=[PUT]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationController.create(java.lang.String,org.apel.server.management.main.container.domain.Application)
+2017-06-22 16:22:22,230 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application],methods=[POST]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationController.create(org.apel.server.management.main.container.domain.Application)
+2017-06-22 16:22:22,231 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application]}" onto public org.apel.gaia.commons.pager.PageBean org.apel.server.management.main.web.ApplicationController.list(org.apel.gaia.commons.jqgrid.QueryParams)
+2017-06-22 16:22:22,232 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/{id}],methods=[GET]}" onto public org.apel.server.management.main.container.domain.Application org.apel.server.management.main.web.ApplicationController.view(java.lang.String)
+2017-06-22 16:22:22,233 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/upload/{id}],methods=[POST]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationController.upload(java.lang.String,org.springframework.web.multipart.MultipartFile)
+2017-06-22 16:22:22,234 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationController.batchDelete(java.lang.String[])
+2017-06-22 16:22:22,235 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/getServerType],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.ApplicationController.getServerType()
+2017-06-22 16:22:22,236 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/all],methods=[GET]}" onto public java.util.List<org.apel.server.management.main.container.domain.Application> org.apel.server.management.main.web.ApplicationController.getAll()
+2017-06-22 16:22:22,244 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/test/index],methods=[GET]}" onto public java.lang.String org.apel.server.management.main.web.TestController.index()
+2017-06-22 16:22:22,245 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/test/user/{id}],methods=[GET]}" onto public org.springframework.boot.autoconfigure.security.SecurityProperties$User org.apel.server.management.main.web.TestController.findById(java.lang.String)
+2017-06-22 16:22:22,246 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/test/subContainer],methods=[GET]}" onto public java.lang.String org.apel.server.management.main.web.TestController.subContainer()
+2017-06-22 16:22:22,249 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/export/jqgrid],methods=[POST]}" onto public org.springframework.http.ResponseEntity<byte[]> org.apel.gaia.infrastructure.ExportController.exportExcel(org.apel.gaia.commons.jqgrid.QueryParams,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+2017-06-22 16:22:22,254 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/400]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._400() throws java.lang.Exception
+2017-06-22 16:22:22,255 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/403]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._403() throws java.lang.Exception
+2017-06-22 16:22:22,256 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/404]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._404() throws java.lang.Exception
+2017-06-22 16:22:22,257 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/405]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._405() throws java.lang.Exception
+2017-06-22 16:22:22,258 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/500]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._500() throws java.lang.Exception
+2017-06-22 16:22:22,263 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/file_progress]}" onto public java.lang.Integer org.apel.gaia.container.boot.controller.CommonController.netCheck(javax.servlet.http.HttpSession)
+2017-06-22 16:22:22,264 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/net_check]}" onto public java.lang.String org.apel.gaia.container.boot.controller.CommonController.netCheck(java.lang.String)
+2017-06-22 16:22:22,265 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/net_detect]}" onto public java.lang.String org.apel.gaia.container.boot.controller.CommonController.netDedect()
+2017-06-22 16:22:22,266 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error]}" onto public java.lang.String org.apel.gaia.container.boot.controller.SpringErrorController.error()
+2017-06-22 16:22:22,479 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:22:22,480 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:22:22,671 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:22:24,863 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java : 431] Registering beans for JMX exposure on startup
+2017-06-22 16:22:24,870 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java : 916] Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-06-22 16:22:24,894 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java : 671] Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-06-22 16:22:24,983 INFO [main] o.e.jetty.ContextHandler.application [ContextHandler.java : 2207] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-22 16:22:24,985 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-22 16:22:25,045 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 508] FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+2017-06-22 16:22:25,098 INFO [main] o.e.jetty.server.AbstractConnector [AbstractConnector.java : 280] Started ServerConnector@163f505{HTTP/1.1,[http/1.1]}{0.0.0.0:6555}
+2017-06-22 16:22:25,100 INFO [main] o.s.b.c.e.j.JettyEmbeddedServletContainer [JettyEmbeddedServletContainer.java : 144] Jetty started on port(s) 6555 (http/1.1)
+2017-06-22 16:22:25,128 INFO [main] o.a.s.m.main.web.test.StartMainWeb [StartupInfoLogger.java : 57] Started StartMainWeb in 39.362 seconds (JVM running for 41.616)
+2017-06-22 16:22:53,531 INFO [qtp1031861-45] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 497] qlString = {FROM AppAndAgent WHERE 1=1}
+2017-06-22 16:22:53,533 INFO [qtp1031861-45] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 701] conIndex = {17}
+2017-06-22 16:22:53,534 INFO [qtp1031861-45] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 706] 条件前的?个数：{0}
+2017-06-22 16:22:53,535 INFO [qtp1031861-45] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 707] 条件后的?个数：{0}
+2017-06-22 16:22:53,536 INFO [qtp1031861-45] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 708] 条件的起始位置：{0}
+2017-06-22 16:22:53,537 INFO [qtp1031861-45] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 674] condition = {}
+2017-06-22 16:22:53,538 INFO [qtp1031861-45] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 482] order = { ORDER BY createDate DESC}
+2017-06-22 16:22:53,539 INFO [qtp1031861-45] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 420] list_ql = {FROM AppAndAgent  WHERE 1=1  ORDER BY createDate DESC}
+2017-06-22 16:22:53,540 INFO [qtp1031861-45] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 152] count_ql = {SELECT count(*) FROM AppAndAgent  WHERE 1=1 }
+2017-06-22 16:22:53,660 INFO [qtp1031861-45] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 737] executeCount totalRows = {1}
+2017-06-22 16:27:07,470 INFO [Druid-ConnectionPool-Log-26581772] c.a.d.p.DruidDataSourceStatLoggerImpl [DruidDataSourceStatLoggerImpl.java : 77] {"url":"jdbc:mysql://192.168.0.94:3306/dsgc?useUnicode=true&characterEncoding=utf8&pinGlobalTxToPhysicalConnection=true","dbType":"mysql","name":"DataSource-26581772","activeCount":1,"activePeak":2,"activePeakTime":"2017-06-22 16:22:13","poolingCount":1,"poolingPeak":2,"poolingPeakTime":"2017-06-22 16:22:14","connectCount":13,"closeCount":12,"notEmptyWaitCount":1,"notEmptyWaitMillis":27,"physicalConnectCount":1,"executeCount":13,"commitCount":8,"pstmtCacheHitCount":4,"pstmtCacheMissCount":9,"startTransactionCount":9,"transactionHistogram":[0,1,5,1,1],"connectionHoldTimeHistogram":[0,1,3,6,2],"sqlList":[{"sql":"select applicatio0_.id as id1_3_, applicatio0_.context as context2_3_, applicatio0_.createDate as createDa3_3_, applicatio0_.ip as ip4_3_, applicatio0_.name as name5_3_, applicatio0_.port as port6_3_, applicatio0_.status as status7_3_, applicatio0_.statusName as statusNa8_3_ from base_application_agent applicatio0_ order by applicatio0_.createDate asc","executeCount":6,"executeMillisMax":18,"executeMillisTotal":29,"executeHistogram":[0,5,1],"executeAndResultHoldHistogram":[6],"concurrentMax":1,"fetchRowCount":2,"fetchRowHistogram":[0,6],"inTransactionCount":6},{"sql":"select applicatio0_.id as id1_2_, applicatio0_.context as context2_2_, applicatio0_.createDate as createDa3_2_, applicatio0_.hasJar as hasJar4_2_, applicatio0_.name as name5_2_, applicatio0_.serverType as serverTy6_2_, applicatio0_.serverTypeName as serverTy7_2_ from base_application applicatio0_ order by applicatio0_.createDate asc","executeCount":1,"executeMillisMax":2,"executeMillisTotal":2,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":5,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select count(*) as col_0_0_ from base_app_and_agent appandagen0_ where 1=1","executeCount":1,"executeMillisMax":1,"executeMillisTotal":1,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select appandagen0_.id as id1_0_, appandagen0_.agentContext as agentCon2_0_, appandagen0_.agentIP as agentIP3_0_, appandagen0_.agentLog as agentLog4_0_, appandagen0_.agentPort as agentPor5_0_, appandagen0_.appDeployDirectory as appDeplo6_0_, appandagen0_.applicationContext as applicat7_0_, appandagen0_.applicationIP as applicat8_0_, appandagen0_.applicationLog as applicat9_0_, appandagen0_.applicationPid as applica10_0_, appandagen0_.applicationPort as applica11_0_, appandagen0_.applicationVersion as applica12_0_, appandagen0_.application_id as applica18_0_, appandagen0_.app_agent_id as app_age19_0_, appandagen0_.createDate as createD13_0_, appandagen0_.operatingSystem as operati14_0_, appandagen0_.startDate as startDa15_0_, appandagen0_.startStatus as startSt16_0_, appandagen0_.startStatusName as startSt17_0_ from base_app_and_agent appandagen0_ where 1=1 order by appandagen0_.createDate DESC limit ?","executeCount":1,"executeMillisMax":2,"executeMillisTotal":2,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select applicatio0_.id as id1_2_0_, applicatio0_.context as context2_2_0_, applicatio0_.createDate as createDa3_2_0_, applicatio0_.hasJar as hasJar4_2_0_, applicatio0_.name as name5_2_0_, applicatio0_.serverType as serverTy6_2_0_, applicatio0_.serverTypeName as serverTy7_2_0_ from base_application applicatio0_ where applicatio0_.id=?","executeCount":1,"executeMillisMax":1,"executeMillisTotal":1,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select applicatio0_.id as id1_3_0_, applicatio0_.context as context2_3_0_, applicatio0_.createDate as createDa3_3_0_, applicatio0_.ip as ip4_3_0_, applicatio0_.name as name5_3_0_, applicatio0_.port as port6_3_0_, applicatio0_.status as status7_3_0_, applicatio0_.statusName as statusNa8_3_0_ from base_application_agent applicatio0_ where applicatio0_.id=?","executeCount":1,"executeMillisMax":1,"executeMillisTotal":1,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select appandagen0_.id as id1_0_0_, appandagen0_.agentContext as agentCon2_0_0_, appandagen0_.agentIP as agentIP3_0_0_, appandagen0_.agentLog as agentLog4_0_0_, appandagen0_.agentPort as agentPor5_0_0_, appandagen0_.appDeployDirectory as appDeplo6_0_0_, appandagen0_.applicationContext as applicat7_0_0_, appandagen0_.applicationIP as applicat8_0_0_, appandagen0_.applicationLog as applicat9_0_0_, appandagen0_.applicationPid as applica10_0_0_, appandagen0_.applicationPort as applica11_0_0_, appandagen0_.applicationVersion as applica12_0_0_, appandagen0_.application_id as applica18_0_0_, appandagen0_.app_agent_id as app_age19_0_0_, appandagen0_.createDate as createD13_0_0_, appandagen0_.operatingSystem as operati14_0_0_, appandagen0_.startDate as startDa15_0_0_, appandagen0_.startStatus as startSt16_0_0_, appandagen0_.startStatusName as startSt17_0_0_, applicatio1_.id as id1_2_1_, applicatio1_.context as context2_2_1_, applicatio1_.createDate as createDa3_2_1_, applicatio1_.hasJar as hasJar4_2_1_, applicatio1_.name as name5_2_1_, applicatio1_.serverType as serverTy6_2_1_, applicatio1_.serverTypeName as serverTy7_2_1_, applicatio2_.id as id1_3_2_, applicatio2_.context as context2_3_2_, applicatio2_.createDate as createDa3_3_2_, applicatio2_.ip as ip4_3_2_, applicatio2_.name as name5_3_2_, applicatio2_.port as port6_3_2_, applicatio2_.status as status7_3_2_, applicatio2_.statusName as statusNa8_3_2_ from base_app_and_agent appandagen0_ left outer join base_application applicatio1_ on appandagen0_.application_id=applicatio1_.id left outer join base_application_agent applicatio2_ on appandagen0_.app_agent_id=applicatio2_.id where appandagen0_.id=?","executeCount":1,"executeMillisMax":8,"executeMillisTotal":8,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select applicatio0_.id as id1_1_, applicatio0_.appVersion as appVersi2_1_, applicatio0_.application_id as applicat5_1_, applicatio0_.storeDate as storeDat3_1_, applicatio0_.storePath as storePat4_1_ from base_app_version applicatio0_ where applicatio0_.application_id=? and applicatio0_.appVersion=?","executeCount":1,"executeMillisMax":2,"executeMillisTotal":2,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1}]}
+2017-06-22 16:35:58,964 INFO [main] o.a.s.m.main.web.test.StartMainWeb [StartupInfoLogger.java : 48] Starting StartMainWeb on wulin with PID 5776 (D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-main-web\target\test-classes started by Administrator in D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-main-web)
+2017-06-22 16:35:59,011 INFO [main] o.a.s.m.main.web.test.StartMainWeb [SpringApplication.java : 637] No active profile set, falling back to default profiles: default
+2017-06-22 16:35:59,214 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b3d178: startup date [Thu Jun 22 16:35:59 CST 2017]; root of context hierarchy
+2017-06-22 16:35:59,993 INFO [background-preinit] o.h.validator.internal.util.Version [Version.java : 30] HV000001: Hibernate Validator 5.3.4.Final
+2017-06-22 16:36:03,319 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-main-web\target\classes\META-INF\spring\module-server-management-main-web.xml]
+2017-06-22 16:36:04,040 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-main-container\target\classes\META-INF\spring\module-server-management-main-container.xml]
+2017-06-22 16:36:04,189 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-common\target\classes\META-INF\spring\module-server-management-common.xml]
+2017-06-22 16:36:04,262 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-base\target\classes\META-INF\spring\module-server-management-base.xml]
+2017-06-22 16:36:04,346 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-property-loader/1.0.1-SNAPSHOT/gaia-property-loader-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-property-loader.xml]
+2017-06-22 16:36:04,403 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-persist/1.0.1-SNAPSHOT/gaia-persist-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-persist.xml]
+2017-06-22 16:36:04,976 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-infrastructure/1.0.1-SNAPSHOT/gaia-infrastructure-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-gaia-infrastructure.xml]
+2017-06-22 16:36:05,029 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/poseidon-security-commons/1.0.2-SNAPSHOT/poseidon-security-commons-1.0.2-SNAPSHOT.jar!/META-INF/spring/module-poseidon-common.xml]
+2017-06-22 16:36:05,078 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-mvc.xml]
+2017-06-22 16:36:05,250 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-boot.xml]
+2017-06-22 16:36:05,319 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-js-lib/1.0.1-SNAPSHOT/gaia-js-lib-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-js-lib.xml]
+2017-06-22 16:36:06,350 INFO [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultListableBeanFactory.java : 828] Overriding bean definition for bean 'org.springframework.transaction.config.internalTransactionAdvisor' with a different definition: replacing [Root bean: class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration; factoryMethodName=transactionAdvisor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]]
+2017-06-22 16:36:06,391 INFO [main] o.s.c.a.ConfigurationClassBeanDefinitionReader [ConfigurationClassBeanDefinitionReader.java : 298] Skipping bean definition for [BeanMethod:name=transactionalEventListenerFactory,declaringClass=org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration]: a definition for bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory' already exists. This top-level bean definition is considered as an override.
+2017-06-22 16:36:06,930 INFO [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultListableBeanFactory.java : 828] Overriding bean definition for bean 'entityManagerFactory' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration; factoryMethodName=entityManagerFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=jpaConfig; factoryMethodName=entityManagerFactory; initMethodName=null; destroyMethodName=(inferred); defined in org.apel.gaia.persist.config.hibernate.JpaConfig]
+2017-06-22 16:36:06,933 INFO [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultListableBeanFactory.java : 828] Overriding bean definition for bean 'transactionManager' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration; factoryMethodName=transactionManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=txConfig; factoryMethodName=transactionManager; initMethodName=null; destroyMethodName=(inferred); defined in org.apel.gaia.persist.config.hibernate.TxConfig]
+2017-06-22 16:36:10,307 INFO [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultListableBeanFactory.java : 828] Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.EmbeddedDataSourceConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/EmbeddedDataSourceConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DBConfig; factoryMethodName=dataSource; initMethodName=init; destroyMethodName=close; defined in org.apel.gaia.persist.config.db.DBConfig]
+2017-06-22 16:36:11,357 WARN [main] o.s.c.a.ConfigurationClassEnhancer [ConfigurationClassEnhancer.java : 350] @Bean method CenterPropertyLoader.propertyPlaceholderConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2017-06-22 16:36:12,207 WARN [main] o.h.v.m.ParameterMessageInterpolator [ParameterMessageInterpolator.java : 28] HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-06-22 16:36:12,851 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac46e661] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-06-22 16:36:13,411 WARN [main] o.h.v.m.ParameterMessageInterpolator [ParameterMessageInterpolator.java : 28] HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-06-22 16:36:14,141 INFO [main] org.eclipse.jetty.util.log [Log.java : 192] Logging initialized @19525ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-06-22 16:36:15,847 INFO [main] o.s.b.c.e.j.JettyEmbeddedServletContainerFactory [JettyEmbeddedServletContainerFactory.java : 176] Server initialized with port: 6555
+2017-06-22 16:36:15,854 INFO [main] org.eclipse.jetty.server.Server [Server.java : 372] jetty-9.4.2.v20170220
+2017-06-22 16:36:16,475 INFO [main] org.eclipse.jetty.server.session [DefaultSessionIdManager.java : 360] DefaultSessionIdManager workerName=node0
+2017-06-22 16:36:16,477 INFO [main] org.eclipse.jetty.server.session [DefaultSessionIdManager.java : 365] No SessionScavenger set, using defaults
+2017-06-22 16:36:16,492 INFO [main] org.eclipse.jetty.server.session [HouseKeeper.java : 146] Scavenging every 660000ms
+2017-06-22 16:36:16,517 INFO [main] o.e.jetty.ContextHandler.application [ContextHandler.java : 2207] Initializing Spring embedded WebApplicationContext
+2017-06-22 16:36:16,519 INFO [main] o.s.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 17304 ms
+2017-06-22 16:36:17,121 INFO [main] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-22 16:36:17,131 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-22 16:36:17,133 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-22 16:36:17,134 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-22 16:36:17,135 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-22 16:36:17,136 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'customUrlDecisionFilter' to: [/*]
+2017-06-22 16:36:18,992 INFO [main] o.e.j.server.handler.ContextHandler [ContextHandler.java : 802] Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@105f453{/main-container,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.6980025608730436385.6555/],AVAILABLE}
+2017-06-22 16:36:18,994 INFO [main] org.eclipse.jetty.server.Server [Server.java : 444] Started @24378ms
+2017-06-22 16:36:23,646 INFO [main] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 669] {dataSource-1} inited
+2017-06-22 16:36:23,653 INFO [Druid-ConnectionPool-Log-9201120] c.a.d.p.DruidDataSourceStatLoggerImpl [DruidDataSourceStatLoggerImpl.java : 77] {"url":"jdbc:mysql://192.168.0.94:3306/dsgc?useUnicode=true&characterEncoding=utf8&pinGlobalTxToPhysicalConnection=true","dbType":"mysql","name":"DataSource-9201120","activeCount":0,"poolingCount":1,"poolingPeak":1,"poolingPeakTime":"2017-06-22 16:36:23","connectCount":0,"closeCount":0,"physicalConnectCount":1}
+2017-06-22 16:36:24,952 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java : 349] Building JPA container EntityManagerFactory for persistence unit 'platform'
+2017-06-22 16:36:25,106 INFO [main] o.h.jpa.internal.util.LogHelper [LogHelper.java : 31] HHH000204: Processing PersistenceUnitInfo [
+	name: platform
+	...]
+2017-06-22 16:36:25,795 INFO [main] org.hibernate.Version [Version.java : 37] HHH000412: Hibernate Core {5.0.12.Final}
+2017-06-22 16:36:25,802 INFO [main] org.hibernate.cfg.Environment [Environment.java : 213] HHH000206: hibernate.properties not found
+2017-06-22 16:36:25,809 INFO [main] org.hibernate.cfg.Environment [Environment.java : 317] HHH000021: Bytecode provider name : javassist
+2017-06-22 16:36:26,243 INFO [main] o.h.annotations.common.Version [JavaReflectionManager.java : 66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-06-22 16:36:27,341 INFO [main] org.hibernate.dialect.Dialect [Dialect.java : 156] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-06-22 16:36:29,394 INFO [main] o.h.cache.spi.UpdateTimestampsCache [UpdateTimestampsCache.java : 55] HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-06-22 16:36:29,408 WARN [main] o.h.c.e.AbstractEhcacheRegionFactory [AbstractEhcacheRegionFactory.java : 161] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-06-22 16:36:29,564 INFO [main] o.h.c.internal.StandardQueryCache [StandardQueryCache.java : 74] HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-06-22 16:36:29,568 WARN [main] o.h.c.e.AbstractEhcacheRegionFactory [AbstractEhcacheRegionFactory.java : 161] HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-06-22 16:36:30,752 INFO [main] o.h.tool.hbm2ddl.SchemaUpdate [SchemaUpdate.java : 105] HHH000228: Running hbm2ddl schema update
+2017-06-22 16:36:31,855 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java : 379] Initialized JPA EntityManagerFactory for persistence unit 'platform'
+2017-06-22 16:36:32,159 INFO [net.sf.ehcache.CacheManager@1a74a93] net.sf.ehcache.util.UpdateChecker [UpdateChecker.java : 98] New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-06-22 16:36:34,277 INFO [main] o.h.h.i.QueryTranslatorFactoryInitiator [QueryTranslatorFactoryInitiator.java : 47] HHH000397: Using ASTQueryTranslatorFactory
+2017-06-22 16:37:32,329 INFO [main] o.s.u.f.SpringTemplateLoader [SpringTemplateLoader.java : 61] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b3d178: startup date [Thu Jun 22 16:35:59 CST 2017]; root of context hierarchy] and template loader path [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/platform/templates/]
+2017-06-22 16:37:32,331 INFO [main] o.s.u.f.SpringTemplateLoader [SpringTemplateLoader.java : 61] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b3d178: startup date [Thu Jun 22 16:35:59 CST 2017]; root of context hierarchy] and template loader path [classpath:/templates/]
+2017-06-22 16:37:32,336 INFO [main] o.s.w.s.v.f.FreeMarkerConfigurer [FreeMarkerConfigurer.java : 127] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-06-22 16:37:33,858 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java : 534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b3d178: startup date [Thu Jun 22 16:35:59 CST 2017]; root of context hierarchy
+2017-06-22 16:37:34,384 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/index],methods=[GET]}" onto public java.lang.String org.apel.server.management.main.web.AppAndAgentController.index()
+2017-06-22 16:37:34,389 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/{id}],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.AppAndAgentController.delete(java.lang.String)
+2017-06-22 16:37:34,390 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/{id}],methods=[PUT]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.AppAndAgentController.create(java.lang.String,org.apel.server.management.main.container.domain.AppAndAgent)
+2017-06-22 16:37:34,391 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent],methods=[POST]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.AppAndAgentController.create(org.apel.server.management.main.container.domain.AppAndAgent)
+2017-06-22 16:37:34,391 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent]}" onto public org.apel.gaia.commons.pager.PageBean org.apel.server.management.main.web.AppAndAgentController.list(org.apel.gaia.commons.jqgrid.QueryParams)
+2017-06-22 16:37:34,392 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/{id}],methods=[GET]}" onto public org.apel.server.management.main.container.domain.AppAndAgent org.apel.server.management.main.web.AppAndAgentController.view(java.lang.String)
+2017-06-22 16:37:34,394 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/all],methods=[GET]}" onto public java.util.List<org.apel.server.management.main.container.domain.AppAndAgent> org.apel.server.management.main.web.AppAndAgentController.getAll()
+2017-06-22 16:37:34,395 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/deploy/{id}],methods=[GET]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.AppAndAgentController.deploy(java.lang.String)
+2017-06-22 16:37:34,396 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/getAllApplication],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.AppAndAgentController.getAllApplication()
+2017-06-22 16:37:34,397 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/getStartStatus]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.AppAndAgentController.getStartStatus()
+2017-06-22 16:37:34,398 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/getAllAgent],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.AppAndAgentController.getAllAgent()
+2017-06-22 16:37:34,400 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent/getAllAppVersion],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.AppAndAgentController.getAllAppVersion(java.lang.String)
+2017-06-22 16:37:34,400 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/appAndAgent],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.AppAndAgentController.batchDelete(java.lang.String[])
+2017-06-22 16:37:34,417 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/index],methods=[GET]}" onto public java.lang.String org.apel.server.management.main.web.ApplicationAgentController.index()
+2017-06-22 16:37:34,418 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/{id}],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationAgentController.delete(java.lang.String)
+2017-06-22 16:37:34,419 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/{id}],methods=[PUT]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationAgentController.create(java.lang.String,org.apel.server.management.main.container.domain.ApplicationAgent)
+2017-06-22 16:37:34,420 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent],methods=[POST]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationAgentController.create(org.apel.server.management.main.container.domain.ApplicationAgent)
+2017-06-22 16:37:34,421 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent]}" onto public org.apel.gaia.commons.pager.PageBean org.apel.server.management.main.web.ApplicationAgentController.list(org.apel.gaia.commons.jqgrid.QueryParams)
+2017-06-22 16:37:34,421 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/{id}],methods=[GET]}" onto public org.apel.server.management.main.container.domain.ApplicationAgent org.apel.server.management.main.web.ApplicationAgentController.view(java.lang.String)
+2017-06-22 16:37:34,422 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/all],methods=[GET]}" onto public java.util.List<org.apel.server.management.main.container.domain.ApplicationAgent> org.apel.server.management.main.web.ApplicationAgentController.getAll()
+2017-06-22 16:37:34,423 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationAgentController.batchDelete(java.lang.String[])
+2017-06-22 16:37:34,424 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/applicationAgent/getAgentStatus],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.ApplicationAgentController.getAgentStatus()
+2017-06-22 16:37:34,433 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/index],methods=[GET]}" onto public java.lang.String org.apel.server.management.main.web.ApplicationController.index()
+2017-06-22 16:37:34,434 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/{id}],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationController.delete(java.lang.String)
+2017-06-22 16:37:34,435 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/{id}],methods=[PUT]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationController.create(java.lang.String,org.apel.server.management.main.container.domain.Application)
+2017-06-22 16:37:34,436 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application],methods=[POST]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationController.create(org.apel.server.management.main.container.domain.Application)
+2017-06-22 16:37:34,436 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application]}" onto public org.apel.gaia.commons.pager.PageBean org.apel.server.management.main.web.ApplicationController.list(org.apel.gaia.commons.jqgrid.QueryParams)
+2017-06-22 16:37:34,437 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/{id}],methods=[GET]}" onto public org.apel.server.management.main.container.domain.Application org.apel.server.management.main.web.ApplicationController.view(java.lang.String)
+2017-06-22 16:37:34,438 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/all],methods=[GET]}" onto public java.util.List<org.apel.server.management.main.container.domain.Application> org.apel.server.management.main.web.ApplicationController.getAll()
+2017-06-22 16:37:34,439 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/upload/{id}],methods=[POST]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationController.upload(java.lang.String,org.springframework.web.multipart.MultipartFile)
+2017-06-22 16:37:34,440 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application],methods=[DELETE]}" onto public org.apel.gaia.commons.i18n.Message org.apel.server.management.main.web.ApplicationController.batchDelete(java.lang.String[])
+2017-06-22 16:37:34,442 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/application/getServerType],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> org.apel.server.management.main.web.ApplicationController.getServerType()
+2017-06-22 16:37:34,452 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/test/index],methods=[GET]}" onto public java.lang.String org.apel.server.management.main.web.TestController.index()
+2017-06-22 16:37:34,453 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/test/user/{id}],methods=[GET]}" onto public org.springframework.boot.autoconfigure.security.SecurityProperties$User org.apel.server.management.main.web.TestController.findById(java.lang.String)
+2017-06-22 16:37:34,455 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/test/subContainer],methods=[GET]}" onto public java.lang.String org.apel.server.management.main.web.TestController.subContainer()
+2017-06-22 16:37:34,459 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/export/jqgrid],methods=[POST]}" onto public org.springframework.http.ResponseEntity<byte[]> org.apel.gaia.infrastructure.ExportController.exportExcel(org.apel.gaia.commons.jqgrid.QueryParams,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+2017-06-22 16:37:34,463 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/file_progress]}" onto public java.lang.Integer org.apel.gaia.container.boot.controller.CommonController.netCheck(javax.servlet.http.HttpSession)
+2017-06-22 16:37:34,464 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/net_check]}" onto public java.lang.String org.apel.gaia.container.boot.controller.CommonController.netCheck(java.lang.String)
+2017-06-22 16:37:34,465 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/net_detect]}" onto public java.lang.String org.apel.gaia.container.boot.controller.CommonController.netDedect()
+2017-06-22 16:37:34,466 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error]}" onto public java.lang.String org.apel.gaia.container.boot.controller.SpringErrorController.error()
+2017-06-22 16:37:34,471 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/400]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._400() throws java.lang.Exception
+2017-06-22 16:37:34,472 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/403]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._403() throws java.lang.Exception
+2017-06-22 16:37:34,473 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/404]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._404() throws java.lang.Exception
+2017-06-22 16:37:34,474 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/405]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._405() throws java.lang.Exception
+2017-06-22 16:37:34,475 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/500]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._500() throws java.lang.Exception
+2017-06-22 16:37:34,672 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:37:34,673 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:37:34,959 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:37:37,289 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java : 431] Registering beans for JMX exposure on startup
+2017-06-22 16:37:37,297 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java : 916] Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-06-22 16:37:37,322 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java : 671] Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-06-22 16:37:37,408 INFO [main] o.e.jetty.ContextHandler.application [ContextHandler.java : 2207] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-22 16:37:37,409 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-22 16:37:37,478 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 508] FrameworkServlet 'dispatcherServlet': initialization completed in 68 ms
+2017-06-22 16:37:37,547 INFO [main] o.e.jetty.server.AbstractConnector [AbstractConnector.java : 280] Started ServerConnector@71756f{HTTP/1.1,[http/1.1]}{0.0.0.0:6555}
+2017-06-22 16:37:37,549 INFO [main] o.s.b.c.e.j.JettyEmbeddedServletContainer [JettyEmbeddedServletContainer.java : 144] Jetty started on port(s) 6555 (http/1.1)
+2017-06-22 16:37:37,566 INFO [main] o.a.s.m.main.web.test.StartMainWeb [StartupInfoLogger.java : 57] Started StartMainWeb in 99.941 seconds (JVM running for 102.948)
+2017-06-22 16:37:53,048 INFO [qtp18367345-16] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 497] qlString = {FROM AppAndAgent WHERE 1=1}
+2017-06-22 16:37:53,050 INFO [qtp18367345-16] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 701] conIndex = {17}
+2017-06-22 16:37:53,051 INFO [qtp18367345-16] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 706] 条件前的?个数：{0}
+2017-06-22 16:37:53,053 INFO [qtp18367345-16] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 707] 条件后的?个数：{0}
+2017-06-22 16:37:53,054 INFO [qtp18367345-16] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 708] 条件的起始位置：{0}
+2017-06-22 16:37:53,055 INFO [qtp18367345-16] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 674] condition = {}
+2017-06-22 16:37:53,057 INFO [qtp18367345-16] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 482] order = { ORDER BY createDate DESC}
+2017-06-22 16:37:53,058 INFO [qtp18367345-16] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 420] list_ql = {FROM AppAndAgent  WHERE 1=1  ORDER BY createDate DESC}
+2017-06-22 16:37:53,059 INFO [qtp18367345-16] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 152] count_ql = {SELECT count(*) FROM AppAndAgent  WHERE 1=1 }
+2017-06-22 16:37:53,116 INFO [qtp18367345-16] o.a.g.p.dao.CommonRepositoryImpl [CommonRepositoryImpl.java : 737] executeCount totalRows = {1}
+2017-06-22 16:38:15,595 WARN [qtp18367345-14] org.eclipse.jetty.server.HttpChannel [HttpChannel.java : 507] /main-container/appAndAgent/deploy/c0c30dd644554277b05a8c1a019e56e3
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:5555/sub-container/restSub/deployApplication": Error writing request body to server; nested exception is java.io.IOException: Error writing request body to server
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.apel.poseidon.security.commons.filter.CustomUrlDecisionFilter.doFilter(CustomUrlDecisionFilter.java:41)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1592)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1239)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1561)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1141)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:122)
+	at org.eclipse.jetty.util.thread.strategy.ExecutingExecutionStrategy.invoke(ExecutingExecutionStrategy.java:58)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:201)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:133)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:5555/sub-container/restSub/deployApplication": Error writing request body to server; nested exception is java.io.IOException: Error writing request body to server
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:380)
+	at org.apel.server.management.main.container.restful.RestSubClient.deployApplication(RestSubClient.java:71)
+	at org.apel.server.management.main.container.service.impl.AppAndAgentServiceImpl.deploy(AppAndAgentServiceImpl.java:52)
+	at org.apel.server.management.main.container.service.impl.AppAndAgentServiceImpl$$FastClassBySpringCGLIB$$e8612547.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at org.apel.server.management.main.container.service.impl.AppAndAgentServiceImpl$$EnhancerBySpringCGLIB$$8c4c197f.deploy(<generated>)
+	at org.apel.server.management.main.web.AppAndAgentController.deploy(AppAndAgentController.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 50 common frames omitted
+Caused by: java.io.IOException: Error writing request body to server
+	at sun.net.www.protocol.http.HttpURLConnection$StreamingOutputStream.checkError(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$StreamingOutputStream.write(Unknown Source)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:244)
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:128)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.writeContent(ResourceHttpMessageConverter.java:110)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.writeInternal(ResourceHttpMessageConverter.java:102)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.writeInternal(ResourceHttpMessageConverter.java:45)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:227)
+	at org.springframework.http.converter.FormHttpMessageConverter.writePart(FormHttpMessageConverter.java:373)
+	at org.springframework.http.converter.FormHttpMessageConverter.writeParts(FormHttpMessageConverter.java:353)
+	at org.springframework.http.converter.FormHttpMessageConverter.writeMultipart(FormHttpMessageConverter.java:342)
+	at org.springframework.http.converter.FormHttpMessageConverter.write(FormHttpMessageConverter.java:257)
+	at org.springframework.http.converter.FormHttpMessageConverter.write(FormHttpMessageConverter.java:89)
+	at org.springframework.web.client.RestTemplate$HttpEntityRequestCallback.doWithRequest(RestTemplate.java:882)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:650)
+	... 78 common frames omitted
+2017-06-22 16:41:23,668 INFO [Druid-ConnectionPool-Log-9201120] c.a.d.p.DruidDataSourceStatLoggerImpl [DruidDataSourceStatLoggerImpl.java : 77] {"url":"jdbc:mysql://192.168.0.94:3306/dsgc?useUnicode=true&characterEncoding=utf8&pinGlobalTxToPhysicalConnection=true","dbType":"mysql","name":"DataSource-9201120","activeCount":0,"activePeak":2,"activePeakTime":"2017-06-22 16:36:30","poolingCount":2,"poolingPeak":2,"poolingPeakTime":"2017-06-22 16:36:31","connectCount":12,"closeCount":12,"notEmptyWaitCount":1,"notEmptyWaitMillis":27,"physicalConnectCount":1,"executeCount":12,"commitCount":7,"rollbackCount":1,"pstmtCacheHitCount":4,"pstmtCacheMissCount":8,"startTransactionCount":8,"transactionHistogram":[0,1,4,1,1,1],"connectionHoldTimeHistogram":[0,1,4,4,2,1],"sqlList":[{"sql":"select applicatio0_.id as id1_3_, applicatio0_.context as context2_3_, applicatio0_.createDate as createDa3_3_, applicatio0_.ip as ip4_3_, applicatio0_.name as name5_3_, applicatio0_.port as port6_3_, applicatio0_.status as status7_3_, applicatio0_.statusName as statusNa8_3_ from base_application_agent applicatio0_ order by applicatio0_.createDate asc","executeCount":5,"executeMillisMax":21,"executeMillisTotal":30,"executeHistogram":[0,4,1],"executeAndResultHoldHistogram":[5],"concurrentMax":1,"fetchRowCount":2,"fetchRowHistogram":[0,5],"inTransactionCount":5},{"sql":"select applicatio0_.id as id1_2_, applicatio0_.context as context2_2_, applicatio0_.createDate as createDa3_2_, applicatio0_.hasJar as hasJar4_2_, applicatio0_.name as name5_2_, applicatio0_.serverType as serverTy6_2_, applicatio0_.serverTypeName as serverTy7_2_ from base_application applicatio0_ order by applicatio0_.createDate asc","executeCount":1,"executeMillisMax":2,"executeMillisTotal":2,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":5,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select count(*) as col_0_0_ from base_app_and_agent appandagen0_ where 1=1","executeCount":1,"executeMillisMax":1,"executeMillisTotal":1,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select appandagen0_.id as id1_0_, appandagen0_.agentContext as agentCon2_0_, appandagen0_.agentIP as agentIP3_0_, appandagen0_.agentLog as agentLog4_0_, appandagen0_.agentPort as agentPor5_0_, appandagen0_.appDeployDirectory as appDeplo6_0_, appandagen0_.applicationContext as applicat7_0_, appandagen0_.applicationIP as applicat8_0_, appandagen0_.applicationLog as applicat9_0_, appandagen0_.applicationPid as applica10_0_, appandagen0_.applicationPort as applica11_0_, appandagen0_.applicationVersion as applica12_0_, appandagen0_.application_id as applica18_0_, appandagen0_.app_agent_id as app_age19_0_, appandagen0_.createDate as createD13_0_, appandagen0_.operatingSystem as operati14_0_, appandagen0_.startDate as startDa15_0_, appandagen0_.startStatus as startSt16_0_, appandagen0_.startStatusName as startSt17_0_ from base_app_and_agent appandagen0_ where 1=1 order by appandagen0_.createDate DESC limit ?","executeCount":1,"executeMillisMax":2,"executeMillisTotal":2,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select applicatio0_.id as id1_2_0_, applicatio0_.context as context2_2_0_, applicatio0_.createDate as createDa3_2_0_, applicatio0_.hasJar as hasJar4_2_0_, applicatio0_.name as name5_2_0_, applicatio0_.serverType as serverTy6_2_0_, applicatio0_.serverTypeName as serverTy7_2_0_ from base_application applicatio0_ where applicatio0_.id=?","executeCount":1,"executeMillisMax":1,"executeMillisTotal":1,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select applicatio0_.id as id1_3_0_, applicatio0_.context as context2_3_0_, applicatio0_.createDate as createDa3_3_0_, applicatio0_.ip as ip4_3_0_, applicatio0_.name as name5_3_0_, applicatio0_.port as port6_3_0_, applicatio0_.status as status7_3_0_, applicatio0_.statusName as statusNa8_3_0_ from base_application_agent applicatio0_ where applicatio0_.id=?","executeCount":1,"executeMillisMax":1,"executeMillisTotal":1,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select appandagen0_.id as id1_0_0_, appandagen0_.agentContext as agentCon2_0_0_, appandagen0_.agentIP as agentIP3_0_0_, appandagen0_.agentLog as agentLog4_0_0_, appandagen0_.agentPort as agentPor5_0_0_, appandagen0_.appDeployDirectory as appDeplo6_0_0_, appandagen0_.applicationContext as applicat7_0_0_, appandagen0_.applicationIP as applicat8_0_0_, appandagen0_.applicationLog as applicat9_0_0_, appandagen0_.applicationPid as applica10_0_0_, appandagen0_.applicationPort as applica11_0_0_, appandagen0_.applicationVersion as applica12_0_0_, appandagen0_.application_id as applica18_0_0_, appandagen0_.app_agent_id as app_age19_0_0_, appandagen0_.createDate as createD13_0_0_, appandagen0_.operatingSystem as operati14_0_0_, appandagen0_.startDate as startDa15_0_0_, appandagen0_.startStatus as startSt16_0_0_, appandagen0_.startStatusName as startSt17_0_0_, applicatio1_.id as id1_2_1_, applicatio1_.context as context2_2_1_, applicatio1_.createDate as createDa3_2_1_, applicatio1_.hasJar as hasJar4_2_1_, applicatio1_.name as name5_2_1_, applicatio1_.serverType as serverTy6_2_1_, applicatio1_.serverTypeName as serverTy7_2_1_, applicatio2_.id as id1_3_2_, applicatio2_.context as context2_3_2_, applicatio2_.createDate as createDa3_3_2_, applicatio2_.ip as ip4_3_2_, applicatio2_.name as name5_3_2_, applicatio2_.port as port6_3_2_, applicatio2_.status as status7_3_2_, applicatio2_.statusName as statusNa8_3_2_ from base_app_and_agent appandagen0_ left outer join base_application applicatio1_ on appandagen0_.application_id=applicatio1_.id left outer join base_application_agent applicatio2_ on appandagen0_.app_agent_id=applicatio2_.id where appandagen0_.id=?","executeCount":1,"executeMillisMax":8,"executeMillisTotal":8,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select applicatio0_.id as id1_1_, applicatio0_.appVersion as appVersi2_1_, applicatio0_.application_id as applicat5_1_, applicatio0_.storeDate as storeDat3_1_, applicatio0_.storePath as storePat4_1_ from base_app_version applicatio0_ where applicatio0_.application_id=? and applicatio0_.appVersion=?","executeCount":1,"executeMillisMax":2,"executeMillisTotal":2,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1}]}
+2017-06-22 16:43:22,166 WARN [qtp18367345-47] org.eclipse.jetty.server.HttpChannel [HttpChannel.java : 507] /main-container/appAndAgent/deploy/c0c30dd644554277b05a8c1a019e56e3
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:5555/sub-container/restSub/deployApplication": Error writing request body to server; nested exception is java.io.IOException: Error writing request body to server
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.apel.poseidon.security.commons.filter.CustomUrlDecisionFilter.doFilter(CustomUrlDecisionFilter.java:41)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1592)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1239)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1561)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1141)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:122)
+	at org.eclipse.jetty.util.thread.strategy.ExecutingExecutionStrategy.invoke(ExecutingExecutionStrategy.java:58)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:201)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:133)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:5555/sub-container/restSub/deployApplication": Error writing request body to server; nested exception is java.io.IOException: Error writing request body to server
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:380)
+	at org.apel.server.management.main.container.restful.RestSubClient.deployApplication(RestSubClient.java:71)
+	at org.apel.server.management.main.container.service.impl.AppAndAgentServiceImpl.deploy(AppAndAgentServiceImpl.java:52)
+	at org.apel.server.management.main.container.service.impl.AppAndAgentServiceImpl$$FastClassBySpringCGLIB$$e8612547.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at org.apel.server.management.main.container.service.impl.AppAndAgentServiceImpl$$EnhancerBySpringCGLIB$$8c4c197f.deploy(<generated>)
+	at org.apel.server.management.main.web.AppAndAgentController.deploy(AppAndAgentController.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 50 common frames omitted
+Caused by: java.io.IOException: Error writing request body to server
+	at sun.net.www.protocol.http.HttpURLConnection$StreamingOutputStream.checkError(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$StreamingOutputStream.write(Unknown Source)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:244)
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:128)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.writeContent(ResourceHttpMessageConverter.java:110)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.writeInternal(ResourceHttpMessageConverter.java:102)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.writeInternal(ResourceHttpMessageConverter.java:45)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:227)
+	at org.springframework.http.converter.FormHttpMessageConverter.writePart(FormHttpMessageConverter.java:373)
+	at org.springframework.http.converter.FormHttpMessageConverter.writeParts(FormHttpMessageConverter.java:353)
+	at org.springframework.http.converter.FormHttpMessageConverter.writeMultipart(FormHttpMessageConverter.java:342)
+	at org.springframework.http.converter.FormHttpMessageConverter.write(FormHttpMessageConverter.java:257)
+	at org.springframework.http.converter.FormHttpMessageConverter.write(FormHttpMessageConverter.java:89)
+	at org.springframework.web.client.RestTemplate$HttpEntityRequestCallback.doWithRequest(RestTemplate.java:882)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:650)
+	... 78 common frames omitted
+2017-06-22 16:46:23,670 INFO [Druid-ConnectionPool-Log-9201120] c.a.d.p.DruidDataSourceStatLoggerImpl [DruidDataSourceStatLoggerImpl.java : 77] {"url":"jdbc:mysql://192.168.0.94:3306/dsgc?useUnicode=true&characterEncoding=utf8&pinGlobalTxToPhysicalConnection=true","dbType":"mysql","name":"DataSource-9201120","activeCount":0,"activePeak":1,"activePeakTime":"2017-06-22 16:41:36","poolingCount":1,"poolingPeak":2,"poolingPeakTime":"2017-06-22 16:41:36","connectCount":6,"closeCount":6,"physicalCloseCount":1,"executeCount":7,"commitCount":5,"rollbackCount":1,"pstmtCacheHitCount":7,"startTransactionCount":6,"transactionHistogram":[0,0,5,0,0,1],"connectionHoldTimeHistogram":[0,0,5,0,0,1],"sqlList":[{"sql":"select applicatio0_.id as id1_3_, applicatio0_.context as context2_3_, applicatio0_.createDate as createDa3_3_, applicatio0_.ip as ip4_3_, applicatio0_.name as name5_3_, applicatio0_.port as port6_3_, applicatio0_.status as status7_3_, applicatio0_.statusName as statusNa8_3_ from base_application_agent applicatio0_ order by applicatio0_.createDate asc","executeCount":5,"executeMillisMax":2,"executeMillisTotal":10,"executeHistogram":[0,5],"executeAndResultHoldHistogram":[5],"concurrentMax":1,"fetchRowCount":2,"fetchRowHistogram":[0,5],"inTransactionCount":5},{"sql":"select appandagen0_.id as id1_0_0_, appandagen0_.agentContext as agentCon2_0_0_, appandagen0_.agentIP as agentIP3_0_0_, appandagen0_.agentLog as agentLog4_0_0_, appandagen0_.agentPort as agentPor5_0_0_, appandagen0_.appDeployDirectory as appDeplo6_0_0_, appandagen0_.applicationContext as applicat7_0_0_, appandagen0_.applicationIP as applicat8_0_0_, appandagen0_.applicationLog as applicat9_0_0_, appandagen0_.applicationPid as applica10_0_0_, appandagen0_.applicationPort as applica11_0_0_, appandagen0_.applicationVersion as applica12_0_0_, appandagen0_.application_id as applica18_0_0_, appandagen0_.app_agent_id as app_age19_0_0_, appandagen0_.createDate as createD13_0_0_, appandagen0_.operatingSystem as operati14_0_0_, appandagen0_.startDate as startDa15_0_0_, appandagen0_.startStatus as startSt16_0_0_, appandagen0_.startStatusName as startSt17_0_0_, applicatio1_.id as id1_2_1_, applicatio1_.context as context2_2_1_, applicatio1_.createDate as createDa3_2_1_, applicatio1_.hasJar as hasJar4_2_1_, applicatio1_.name as name5_2_1_, applicatio1_.serverType as serverTy6_2_1_, applicatio1_.serverTypeName as serverTy7_2_1_, applicatio2_.id as id1_3_2_, applicatio2_.context as context2_3_2_, applicatio2_.createDate as createDa3_3_2_, applicatio2_.ip as ip4_3_2_, applicatio2_.name as name5_3_2_, applicatio2_.port as port6_3_2_, applicatio2_.status as status7_3_2_, applicatio2_.statusName as statusNa8_3_2_ from base_app_and_agent appandagen0_ left outer join base_application applicatio1_ on appandagen0_.application_id=applicatio1_.id left outer join base_application_agent applicatio2_ on appandagen0_.app_agent_id=applicatio2_.id where appandagen0_.id=?","executeCount":1,"executeMillisMax":3,"executeMillisTotal":3,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select applicatio0_.id as id1_1_, applicatio0_.appVersion as appVersi2_1_, applicatio0_.application_id as applicat5_1_, applicatio0_.storeDate as storeDat3_1_, applicatio0_.storePath as storePat4_1_ from base_app_version applicatio0_ where applicatio0_.application_id=? and applicatio0_.appVersion=?","executeCount":1,"executeMillisMax":1,"executeMillisTotal":1,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1}]}
+2017-06-22 16:48:42,493 WARN [qtp18367345-20] org.eclipse.jetty.server.HttpChannel [HttpChannel.java : 507] /main-container/appAndAgent/deploy/c0c30dd644554277b05a8c1a019e56e3
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:5555/sub-container/restSub/deployApplication": Error writing request body to server; nested exception is java.io.IOException: Error writing request body to server
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.apel.poseidon.security.commons.filter.CustomUrlDecisionFilter.doFilter(CustomUrlDecisionFilter.java:41)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1592)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1239)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1561)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1141)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:122)
+	at org.eclipse.jetty.util.thread.strategy.ExecutingExecutionStrategy.invoke(ExecutingExecutionStrategy.java:58)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:201)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:133)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:5555/sub-container/restSub/deployApplication": Error writing request body to server; nested exception is java.io.IOException: Error writing request body to server
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:531)
+	at org.apel.server.management.main.container.restful.RestSubClient.deployApplication(RestSubClient.java:75)
+	at org.apel.server.management.main.container.service.impl.AppAndAgentServiceImpl.deploy(AppAndAgentServiceImpl.java:52)
+	at org.apel.server.management.main.container.service.impl.AppAndAgentServiceImpl$$FastClassBySpringCGLIB$$e8612547.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at org.apel.server.management.main.container.service.impl.AppAndAgentServiceImpl$$EnhancerBySpringCGLIB$$8c4c197f.deploy(<generated>)
+	at org.apel.server.management.main.web.AppAndAgentController.deploy(AppAndAgentController.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 50 common frames omitted
+Caused by: java.io.IOException: Error writing request body to server
+	at sun.net.www.protocol.http.HttpURLConnection$StreamingOutputStream.checkError(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$StreamingOutputStream.write(Unknown Source)
+	at org.springframework.util.StreamUtils$NonClosingOutputStream.write(StreamUtils.java:244)
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:128)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.writeContent(ResourceHttpMessageConverter.java:110)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.writeInternal(ResourceHttpMessageConverter.java:102)
+	at org.springframework.http.converter.ResourceHttpMessageConverter.writeInternal(ResourceHttpMessageConverter.java:45)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:227)
+	at org.springframework.http.converter.FormHttpMessageConverter.writePart(FormHttpMessageConverter.java:373)
+	at org.springframework.http.converter.FormHttpMessageConverter.writeParts(FormHttpMessageConverter.java:353)
+	at org.springframework.http.converter.FormHttpMessageConverter.writeMultipart(FormHttpMessageConverter.java:342)
+	at org.springframework.http.converter.FormHttpMessageConverter.write(FormHttpMessageConverter.java:257)
+	at org.springframework.http.converter.FormHttpMessageConverter.write(FormHttpMessageConverter.java:89)
+	at org.springframework.web.client.RestTemplate$HttpEntityRequestCallback.doWithRequest(RestTemplate.java:882)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:650)
+	... 78 common frames omitted
+2017-06-22 16:51:23,673 INFO [Druid-ConnectionPool-Log-9201120] c.a.d.p.DruidDataSourceStatLoggerImpl [DruidDataSourceStatLoggerImpl.java : 77] {"url":"jdbc:mysql://192.168.0.94:3306/dsgc?useUnicode=true&characterEncoding=utf8&pinGlobalTxToPhysicalConnection=true","dbType":"mysql","name":"DataSource-9201120","activeCount":0,"activePeak":1,"activePeakTime":"2017-06-22 16:46:36","poolingCount":1,"poolingPeak":1,"poolingPeakTime":"2017-06-22 16:46:36","connectCount":6,"closeCount":6,"executeCount":7,"commitCount":5,"rollbackCount":1,"pstmtCacheHitCount":7,"startTransactionCount":6,"transactionHistogram":[0,0,5,0,1],"connectionHoldTimeHistogram":[0,0,5,0,1],"sqlList":[{"sql":"select applicatio0_.id as id1_3_, applicatio0_.context as context2_3_, applicatio0_.createDate as createDa3_3_, applicatio0_.ip as ip4_3_, applicatio0_.name as name5_3_, applicatio0_.port as port6_3_, applicatio0_.status as status7_3_, applicatio0_.statusName as statusNa8_3_ from base_application_agent applicatio0_ order by applicatio0_.createDate asc","executeCount":5,"executeMillisMax":2,"executeMillisTotal":10,"executeHistogram":[0,5],"executeAndResultHoldHistogram":[5],"concurrentMax":1,"fetchRowCount":2,"fetchRowHistogram":[0,5],"inTransactionCount":5},{"sql":"select appandagen0_.id as id1_0_0_, appandagen0_.agentContext as agentCon2_0_0_, appandagen0_.agentIP as agentIP3_0_0_, appandagen0_.agentLog as agentLog4_0_0_, appandagen0_.agentPort as agentPor5_0_0_, appandagen0_.appDeployDirectory as appDeplo6_0_0_, appandagen0_.applicationContext as applicat7_0_0_, appandagen0_.applicationIP as applicat8_0_0_, appandagen0_.applicationLog as applicat9_0_0_, appandagen0_.applicationPid as applica10_0_0_, appandagen0_.applicationPort as applica11_0_0_, appandagen0_.applicationVersion as applica12_0_0_, appandagen0_.application_id as applica18_0_0_, appandagen0_.app_agent_id as app_age19_0_0_, appandagen0_.createDate as createD13_0_0_, appandagen0_.operatingSystem as operati14_0_0_, appandagen0_.startDate as startDa15_0_0_, appandagen0_.startStatus as startSt16_0_0_, appandagen0_.startStatusName as startSt17_0_0_, applicatio1_.id as id1_2_1_, applicatio1_.context as context2_2_1_, applicatio1_.createDate as createDa3_2_1_, applicatio1_.hasJar as hasJar4_2_1_, applicatio1_.name as name5_2_1_, applicatio1_.serverType as serverTy6_2_1_, applicatio1_.serverTypeName as serverTy7_2_1_, applicatio2_.id as id1_3_2_, applicatio2_.context as context2_3_2_, applicatio2_.createDate as createDa3_3_2_, applicatio2_.ip as ip4_3_2_, applicatio2_.name as name5_3_2_, applicatio2_.port as port6_3_2_, applicatio2_.status as status7_3_2_, applicatio2_.statusName as statusNa8_3_2_ from base_app_and_agent appandagen0_ left outer join base_application applicatio1_ on appandagen0_.application_id=applicatio1_.id left outer join base_application_agent applicatio2_ on appandagen0_.app_agent_id=applicatio2_.id where appandagen0_.id=?","executeCount":1,"executeMillisMax":3,"executeMillisTotal":3,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1},{"sql":"select applicatio0_.id as id1_1_, applicatio0_.appVersion as appVersi2_1_, applicatio0_.application_id as applicat5_1_, applicatio0_.storeDate as storeDat3_1_, applicatio0_.storePath as storePat4_1_ from base_app_version applicatio0_ where applicatio0_.application_id=? and applicatio0_.appVersion=?","executeCount":1,"executeMillisMax":1,"executeMillisTotal":1,"executeHistogram":[0,1],"executeAndResultHoldHistogram":[1],"concurrentMax":1,"fetchRowCount":1,"fetchRowHistogram":[0,1],"inTransactionCount":1}]}
+2017-06-22 16:53:38,609 ERROR [Timer-0] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1190] discard connection
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 62,073 milliseconds ago.  The last packet sent successfully to the server was 2,110 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3422)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3322)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3762)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2531)
+	at com.mysql.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:4852)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_setAutoCommit(FilterChainImpl.java:553)
+	at com.alibaba.druid.filter.FilterAdapter.connection_setAutoCommit(FilterAdapter.java:984)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_setAutoCommit(FilterChainImpl.java:549)
+	at com.alibaba.druid.filter.logging.LogFilter.connection_setAutoCommit(LogFilter.java:410)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_setAutoCommit(FilterChainImpl.java:549)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.setAutoCommit(ConnectionProxyImpl.java:430)
+	at com.alibaba.druid.pool.DruidPooledConnection.setAutoCommit(DruidPooledConnection.java:681)
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.begin(AbstractLogicalConnectionImplementor.java:67)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:238)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:214)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:52)
+	at org.hibernate.internal.SessionImpl.beginTransaction(SessionImpl.java:1512)
+	at org.hibernate.jpa.internal.TransactionImpl.begin(TransactionImpl.java:45)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:189)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:380)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:447)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:277)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at org.apel.server.management.main.container.service.impl.ApplicationAgentServiceImpl$$EnhancerBySpringCGLIB$$c50a1867.checkAgentConnStatus(<generated>)
+	at org.apel.server.management.main.container.timer.ConnAgentTimer$1.run(ConnAgentTimer.java:31)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:100)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:143)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:173)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2911)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3332)
+	... 31 common frames omitted
+2017-06-22 16:53:59,628 ERROR [Druid-ConnectionPool-Create-9201120] c.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1863] create connection error, url: jdbc:mysql://192.168.0.94:3306/dsgc?useUnicode=true&characterEncoding=utf8&pinGlobalTxToPhysicalConnection=true
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1038)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2237)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2270)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2069)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:399)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:785)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1377)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1431)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1861)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297)
+	... 21 common frames omitted
+2017-06-22 16:56:23,675 INFO [Druid-ConnectionPool-Log-9201120] c.a.d.p.DruidDataSourceStatLoggerImpl [DruidDataSourceStatLoggerImpl.java : 77] {"url":"jdbc:mysql://192.168.0.94:3306/dsgc?useUnicode=true&characterEncoding=utf8&pinGlobalTxToPhysicalConnection=true","dbType":"mysql","name":"DataSource-9201120","activeCount":0,"activePeak":1,"activePeakTime":"2017-06-22 16:51:36","poolingCount":0,"poolingPeak":1,"poolingPeakTime":"2017-06-22 16:51:36","connectCount":3,"closeCount":2,"physicalConnectErrorCount":1,"executeCount":2,"errorCount":1,"commitCount":2,"pstmtCacheHitCount":2,"startTransactionCount":2,"transactionHistogram":[0,0,2],"connectionHoldTimeHistogram":[0,0,2],"sqlList":[{"sql":"select applicatio0_.id as id1_3_, applicatio0_.context as context2_3_, applicatio0_.createDate as createDa3_3_, applicatio0_.ip as ip4_3_, applicatio0_.name as name5_3_, applicatio0_.port as port6_3_, applicatio0_.status as status7_3_, applicatio0_.statusName as statusNa8_3_ from base_application_agent applicatio0_ order by applicatio0_.createDate asc","executeCount":2,"executeMillisMax":2,"executeMillisTotal":3,"executeHistogram":[0,2],"executeAndResultHoldHistogram":[2],"concurrentMax":1,"fetchRowCount":2,"fetchRowHistogram":[0,2],"inTransactionCount":2}]}

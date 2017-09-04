@@ -1,0 +1,5 @@
+org\apel\server\management\main\web\TestController.class
+org\apel\server\management\main\web\AppAndAgentController.class
+org\apel\server\management\main\web\RestMainController.class
+org\apel\server\management\main\web\ApplicationAgentController.class
+org\apel\server\management\main\web\ApplicationController.class

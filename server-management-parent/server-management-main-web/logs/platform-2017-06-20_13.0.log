@@ -1,0 +1,1 @@
+2017-06-20 13:19:08,516 INFO [Druid-ConnectionPool-Log-16124930] c.a.d.p.DruidDataSourceStatLoggerImpl [DruidDataSourceStatLoggerImpl.java : 77] {"url":"jdbc:mysql://192.168.0.94:3306/dsgc?useUnicode=true&characterEncoding=utf8&pinGlobalTxToPhysicalConnection=true","dbType":"mysql","name":"DataSource-16124930","activeCount":0,"poolingCount":1,"connectCount":0,"closeCount":0}

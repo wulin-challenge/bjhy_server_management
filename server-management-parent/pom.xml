@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+		<groupId>org.apel</groupId>
+		<artifactId>gaia</artifactId>
+		<version>1.0.1-SNAPSHOT</version>
+	</parent>
+  <artifactId>server-management-parent</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>server-management-application</module>
+  	<module>server-management-sub-container</module>
+  	<module>server-management-build</module>
+  	<module>server-management-common</module>
+  	<module>server-management-main-container</module>
+  	<module>server-management-main-web</module>
+  	<module>server-management-sub-web</module>
+  	<module>server-management-base</module>
+  </modules>
+</project>

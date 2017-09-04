@@ -1,0 +1,325 @@
+2017-06-22 16:21:46,294 INFO [main] o.a.s.m.sub.web.test.StartSubMain [StartupInfoLogger.java : 48] Starting StartSubMain on wulin with PID 2384 (D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-sub-web\target\test-classes started by Administrator in D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-sub-web)
+2017-06-22 16:21:46,407 INFO [main] o.a.s.m.sub.web.test.StartSubMain [SpringApplication.java : 637] No active profile set, falling back to default profiles: default
+2017-06-22 16:21:46,686 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a8c737: startup date [Thu Jun 22 16:21:46 CST 2017]; root of context hierarchy
+2017-06-22 16:21:47,449 INFO [background-preinit] o.h.validator.internal.util.Version [Version.java : 30] HV000001: Hibernate Validator 5.3.4.Final
+2017-06-22 16:21:49,170 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-sub-web\target\classes\META-INF\spring\module-server-management-sub-web.xml]
+2017-06-22 16:21:49,643 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-boot.xml]
+2017-06-22 16:21:49,764 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-mvc.xml]
+2017-06-22 16:21:49,958 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-sub-container\target\classes\META-INF\spring\module-server-management-sub-container.xml]
+2017-06-22 16:21:50,044 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-common\target\classes\META-INF\spring\module-server-management-common.xml]
+2017-06-22 16:21:50,090 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-base\target\classes\META-INF\spring\module-server-management-base.xml]
+2017-06-22 16:21:50,137 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-property-loader/1.0.1-SNAPSHOT/gaia-property-loader-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-property-loader.xml]
+2017-06-22 16:21:50,182 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-js-lib/1.0.1-SNAPSHOT/gaia-js-lib-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-js-lib.xml]
+2017-06-22 16:21:51,860 WARN [main] o.s.c.a.ConfigurationClassEnhancer [ConfigurationClassEnhancer.java : 350] @Bean method CenterPropertyLoader.propertyPlaceholderConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2017-06-22 16:21:53,928 INFO [main] org.eclipse.jetty.util.log [Log.java : 192] Logging initialized @12243ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-06-22 16:21:56,285 INFO [main] o.s.b.c.e.j.JettyEmbeddedServletContainerFactory [JettyEmbeddedServletContainerFactory.java : 176] Server initialized with port: 5555
+2017-06-22 16:21:56,298 INFO [main] org.eclipse.jetty.server.Server [Server.java : 372] jetty-9.4.2.v20170220
+2017-06-22 16:21:57,387 INFO [main] org.eclipse.jetty.server.session [DefaultSessionIdManager.java : 360] DefaultSessionIdManager workerName=node0
+2017-06-22 16:21:57,388 INFO [main] org.eclipse.jetty.server.session [DefaultSessionIdManager.java : 365] No SessionScavenger set, using defaults
+2017-06-22 16:21:57,405 INFO [main] org.eclipse.jetty.server.session [HouseKeeper.java : 146] Scavenging every 660000ms
+2017-06-22 16:21:57,478 INFO [main] o.e.jetty.ContextHandler.application [ContextHandler.java : 2207] Initializing Spring embedded WebApplicationContext
+2017-06-22 16:21:57,479 INFO [main] o.s.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 10794 ms
+2017-06-22 16:21:58,027 INFO [main] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-22 16:21:58,035 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-22 16:21:58,036 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-22 16:21:58,037 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-22 16:21:58,038 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-22 16:22:00,351 INFO [main] o.e.j.server.handler.ContextHandler [ContextHandler.java : 802] Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@ab4a5b{/sub-container,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.4726731299983866182.5555/],AVAILABLE}
+2017-06-22 16:22:00,353 INFO [main] org.eclipse.jetty.server.Server [Server.java : 444] Started @18667ms
+2017-06-22 16:22:01,316 INFO [main] o.s.u.f.SpringTemplateLoader [SpringTemplateLoader.java : 61] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a8c737: startup date [Thu Jun 22 16:21:46 CST 2017]; root of context hierarchy] and template loader path [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/platform/templates/]
+2017-06-22 16:22:01,319 INFO [main] o.s.u.f.SpringTemplateLoader [SpringTemplateLoader.java : 61] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a8c737: startup date [Thu Jun 22 16:21:46 CST 2017]; root of context hierarchy] and template loader path [classpath:/templates/]
+2017-06-22 16:22:01,323 INFO [main] o.s.w.s.v.f.FreeMarkerConfigurer [FreeMarkerConfigurer.java : 127] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-06-22 16:22:02,969 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java : 534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a8c737: startup date [Thu Jun 22 16:21:46 CST 2017]; root of context hierarchy
+2017-06-22 16:22:03,335 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/restSub/accessCheck],methods=[GET]}" onto public org.apel.server.management.base.domain.TransferAgent org.apel.server.management.sub.web.RestSubController.accessCheck()
+2017-06-22 16:22:03,339 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/restSub/getDeployDirectory],methods=[GET]}" onto public org.apel.server.management.base.domain.TransferAgent org.apel.server.management.sub.web.RestSubController.getDeployDirectory()
+2017-06-22 16:22:03,341 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/restSub/deployApplication],methods=[POST]}" onto public org.apel.server.management.base.domain.TransferAgent org.apel.server.management.sub.web.RestSubController.deployApplication(java.lang.String,org.springframework.web.multipart.MultipartFile)
+2017-06-22 16:22:03,348 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/405]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._405() throws java.lang.Exception
+2017-06-22 16:22:03,349 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/500]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._500() throws java.lang.Exception
+2017-06-22 16:22:03,351 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/400]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._400() throws java.lang.Exception
+2017-06-22 16:22:03,353 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/403]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._403() throws java.lang.Exception
+2017-06-22 16:22:03,354 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/404]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._404() throws java.lang.Exception
+2017-06-22 16:22:03,360 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/net_detect]}" onto public java.lang.String org.apel.gaia.container.boot.controller.CommonController.netDedect()
+2017-06-22 16:22:03,362 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/file_progress]}" onto public java.lang.Integer org.apel.gaia.container.boot.controller.CommonController.netCheck(javax.servlet.http.HttpSession)
+2017-06-22 16:22:03,362 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/net_check]}" onto public java.lang.String org.apel.gaia.container.boot.controller.CommonController.netCheck(java.lang.String)
+2017-06-22 16:22:03,364 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error]}" onto public java.lang.String org.apel.gaia.container.boot.controller.SpringErrorController.error()
+2017-06-22 16:22:03,556 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:22:03,557 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:22:03,744 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:22:05,481 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java : 431] Registering beans for JMX exposure on startup
+2017-06-22 16:22:05,549 INFO [main] o.e.jetty.ContextHandler.application [ContextHandler.java : 2207] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-22 16:22:05,550 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-22 16:22:05,604 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 508] FrameworkServlet 'dispatcherServlet': initialization completed in 53 ms
+2017-06-22 16:22:05,792 INFO [main] o.e.jetty.server.AbstractConnector [AbstractConnector.java : 280] Started ServerConnector@1c767e6{HTTP/1.1,[http/1.1]}{0.0.0.0:5555}
+2017-06-22 16:22:05,794 INFO [main] o.s.b.c.e.j.JettyEmbeddedServletContainer [JettyEmbeddedServletContainer.java : 144] Jetty started on port(s) 5555 (http/1.1)
+2017-06-22 16:22:05,806 INFO [main] o.a.s.m.sub.web.test.StartSubMain [StartupInfoLogger.java : 57] Started StartSubMain in 21.139 seconds (JVM running for 24.121)
+2017-06-22 16:35:57,260 INFO [main] o.a.s.m.sub.web.test.StartSubMain [StartupInfoLogger.java : 48] Starting StartSubMain on wulin with PID 4296 (D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-sub-web\target\test-classes started by Administrator in D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-sub-web)
+2017-06-22 16:35:57,349 INFO [main] o.a.s.m.sub.web.test.StartSubMain [SpringApplication.java : 637] No active profile set, falling back to default profiles: default
+2017-06-22 16:35:57,974 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12e19ca: startup date [Thu Jun 22 16:35:57 CST 2017]; root of context hierarchy
+2017-06-22 16:35:59,169 INFO [background-preinit] o.h.validator.internal.util.Version [Version.java : 30] HV000001: Hibernate Validator 5.3.4.Final
+2017-06-22 16:36:01,697 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-sub-web\target\classes\META-INF\spring\module-server-management-sub-web.xml]
+2017-06-22 16:36:02,256 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-mvc.xml]
+2017-06-22 16:36:02,437 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-boot.xml]
+2017-06-22 16:36:02,552 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-sub-container\target\classes\META-INF\spring\module-server-management-sub-container.xml]
+2017-06-22 16:36:02,630 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-common\target\classes\META-INF\spring\module-server-management-common.xml]
+2017-06-22 16:36:02,698 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from file [D:\soft\job\java\javaIDE\eclipse_jee\bjhy_attachment_workspace\server-management-parent\server-management-base\target\classes\META-INF\spring\module-server-management-base.xml]
+2017-06-22 16:36:02,777 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-property-loader/1.0.1-SNAPSHOT/gaia-property-loader-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-property-loader.xml]
+2017-06-22 16:36:02,840 INFO [main] o.s.b.f.xml.XmlBeanDefinitionReader [XmlBeanDefinitionReader.java : 317] Loading XML bean definitions from URL [jar:file:/D:/repository/org/apel/gaia-js-lib/1.0.1-SNAPSHOT/gaia-js-lib-1.0.1-SNAPSHOT.jar!/META-INF/spring/module-js-lib.xml]
+2017-06-22 16:36:04,664 WARN [main] o.s.c.a.ConfigurationClassEnhancer [ConfigurationClassEnhancer.java : 350] @Bean method CenterPropertyLoader.propertyPlaceholderConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2017-06-22 16:36:07,326 INFO [main] org.eclipse.jetty.util.log [Log.java : 192] Logging initialized @16457ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-06-22 16:36:10,513 INFO [main] o.s.b.c.e.j.JettyEmbeddedServletContainerFactory [JettyEmbeddedServletContainerFactory.java : 176] Server initialized with port: 5555
+2017-06-22 16:36:10,546 INFO [main] org.eclipse.jetty.server.Server [Server.java : 372] jetty-9.4.2.v20170220
+2017-06-22 16:36:12,539 INFO [main] org.eclipse.jetty.server.session [DefaultSessionIdManager.java : 360] DefaultSessionIdManager workerName=node0
+2017-06-22 16:36:12,541 INFO [main] org.eclipse.jetty.server.session [DefaultSessionIdManager.java : 365] No SessionScavenger set, using defaults
+2017-06-22 16:36:12,750 INFO [main] org.eclipse.jetty.server.session [HouseKeeper.java : 146] Scavenging every 660000ms
+2017-06-22 16:36:12,853 INFO [main] o.e.jetty.ContextHandler.application [ContextHandler.java : 2207] Initializing Spring embedded WebApplicationContext
+2017-06-22 16:36:12,855 INFO [main] o.s.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 14880 ms
+2017-06-22 16:36:13,668 INFO [main] o.s.b.w.s.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-22 16:36:13,676 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-22 16:36:13,678 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-22 16:36:13,680 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-22 16:36:13,681 INFO [main] o.s.b.w.s.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-22 16:36:16,429 INFO [main] o.e.j.server.handler.ContextHandler [ContextHandler.java : 802] Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@17a9786{/sub-container,[file:///C:/Users/Administrator/AppData/Local/Temp/jetty-docbase.9198060505336175210.5555/],AVAILABLE}
+2017-06-22 16:36:16,431 INFO [main] org.eclipse.jetty.server.Server [Server.java : 444] Started @25561ms
+2017-06-22 16:36:17,592 INFO [main] o.s.u.f.SpringTemplateLoader [SpringTemplateLoader.java : 61] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12e19ca: startup date [Thu Jun 22 16:35:57 CST 2017]; root of context hierarchy] and template loader path [jar:file:/D:/repository/org/apel/gaia-container-boot/1.0.1-SNAPSHOT/gaia-container-boot-1.0.1-SNAPSHOT.jar!/platform/templates/]
+2017-06-22 16:36:17,594 INFO [main] o.s.u.f.SpringTemplateLoader [SpringTemplateLoader.java : 61] SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12e19ca: startup date [Thu Jun 22 16:35:57 CST 2017]; root of context hierarchy] and template loader path [classpath:/templates/]
+2017-06-22 16:36:17,599 INFO [main] o.s.w.s.v.f.FreeMarkerConfigurer [FreeMarkerConfigurer.java : 127] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2017-06-22 16:36:19,226 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java : 534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12e19ca: startup date [Thu Jun 22 16:35:57 CST 2017]; root of context hierarchy
+2017-06-22 16:36:19,647 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/restSub/accessCheck],methods=[GET]}" onto public org.apel.server.management.base.domain.TransferAgent org.apel.server.management.sub.web.RestSubController.accessCheck()
+2017-06-22 16:36:19,650 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/restSub/getDeployDirectory],methods=[GET]}" onto public org.apel.server.management.base.domain.TransferAgent org.apel.server.management.sub.web.RestSubController.getDeployDirectory()
+2017-06-22 16:36:19,653 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/restSub/deployApplication],methods=[POST]}" onto public org.apel.server.management.base.domain.TransferAgent org.apel.server.management.sub.web.RestSubController.deployApplication(java.lang.String,org.springframework.web.multipart.MultipartFile)
+2017-06-22 16:36:19,660 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/net_detect]}" onto public java.lang.String org.apel.gaia.container.boot.controller.CommonController.netDedect()
+2017-06-22 16:36:19,661 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/file_progress]}" onto public java.lang.Integer org.apel.gaia.container.boot.controller.CommonController.netCheck(javax.servlet.http.HttpSession)
+2017-06-22 16:36:19,662 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/net_check]}" onto public java.lang.String org.apel.gaia.container.boot.controller.CommonController.netCheck(java.lang.String)
+2017-06-22 16:36:19,664 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error]}" onto public java.lang.String org.apel.gaia.container.boot.controller.SpringErrorController.error()
+2017-06-22 16:36:19,672 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/400]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._400() throws java.lang.Exception
+2017-06-22 16:36:19,673 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/403]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._403() throws java.lang.Exception
+2017-06-22 16:36:19,674 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/404]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._404() throws java.lang.Exception
+2017-06-22 16:36:19,674 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/405]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._405() throws java.lang.Exception
+2017-06-22 16:36:19,675 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/500]}" onto public java.lang.String org.apel.gaia.container.boot.controller.ContainerErrorController._500() throws java.lang.Exception
+2017-06-22 16:36:19,867 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:36:19,868 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:36:20,111 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-22 16:36:21,815 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java : 431] Registering beans for JMX exposure on startup
+2017-06-22 16:36:21,914 INFO [main] o.e.jetty.ContextHandler.application [ContextHandler.java : 2207] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-22 16:36:21,915 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-22 16:36:22,002 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 508] FrameworkServlet 'dispatcherServlet': initialization completed in 86 ms
+2017-06-22 16:36:22,169 INFO [main] o.e.jetty.server.AbstractConnector [AbstractConnector.java : 280] Started ServerConnector@dce59e{HTTP/1.1,[http/1.1]}{0.0.0.0:5555}
+2017-06-22 16:36:22,170 INFO [main] o.s.b.c.e.j.JettyEmbeddedServletContainer [JettyEmbeddedServletContainer.java : 144] Jetty started on port(s) 5555 (http/1.1)
+2017-06-22 16:36:22,183 INFO [main] o.a.s.m.sub.web.test.StartSubMain [StartupInfoLogger.java : 57] Started StartSubMain in 28.086 seconds (JVM running for 31.313)
+2017-06-22 16:38:15,554 WARN [qtp22034345-16] org.eclipse.jetty.server.HttpChannel [HttpChannel.java : 507] /sub-container/restSub/deployApplication
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Could not parse multipart servlet request; nested exception is java.lang.IllegalStateException: No multipart config for servlet
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1592)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1239)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1561)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1141)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.web.multipart.MultipartException: Could not parse multipart servlet request; nested exception is java.lang.IllegalStateException: No multipart config for servlet
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:111)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:85)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:72)
+	at org.springframework.web.multipart.support.MultipartResolutionDelegate.adaptToMultipartHttpServletRequest(MultipartResolutionDelegate.java:80)
+	at org.springframework.web.multipart.support.MultipartResolutionDelegate.resolveMultipartArgument(MultipartResolutionDelegate.java:103)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.resolveName(RequestParamMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:103)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:158)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:128)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 44 common frames omitted
+Caused by: java.lang.IllegalStateException: No multipart config for servlet
+	at org.eclipse.jetty.server.Request.getParts(Request.java:2311)
+	at org.eclipse.jetty.server.Request.getParts(Request.java:2298)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:92)
+	... 60 common frames omitted
+2017-06-22 16:43:22,110 WARN [qtp22034345-19] org.eclipse.jetty.server.HttpChannel [HttpChannel.java : 507] /sub-container/restSub/deployApplication
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Could not parse multipart servlet request; nested exception is java.lang.IllegalStateException: No multipart config for servlet
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1592)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1239)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1561)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1141)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:122)
+	at org.eclipse.jetty.util.thread.strategy.ExecutingExecutionStrategy.invoke(ExecutingExecutionStrategy.java:58)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:201)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:133)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.web.multipart.MultipartException: Could not parse multipart servlet request; nested exception is java.lang.IllegalStateException: No multipart config for servlet
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:111)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:85)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:72)
+	at org.springframework.web.multipart.support.MultipartResolutionDelegate.adaptToMultipartHttpServletRequest(MultipartResolutionDelegate.java:80)
+	at org.springframework.web.multipart.support.MultipartResolutionDelegate.resolveMultipartArgument(MultipartResolutionDelegate.java:103)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.resolveName(RequestParamMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:103)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:158)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:128)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalStateException: No multipart config for servlet
+	at org.eclipse.jetty.server.Request.getParts(Request.java:2311)
+	at org.eclipse.jetty.server.Request.getParts(Request.java:2298)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:92)
+	... 64 common frames omitted
+2017-06-22 16:48:42,481 WARN [qtp22034345-20] org.eclipse.jetty.server.HttpChannel [HttpChannel.java : 507] /sub-container/restSub/deployApplication
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Could not parse multipart servlet request; nested exception is java.lang.IllegalStateException: No multipart config for servlet
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1634)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1621)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:541)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1592)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1239)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1561)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1141)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.web.multipart.MultipartException: Could not parse multipart servlet request; nested exception is java.lang.IllegalStateException: No multipart config for servlet
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:111)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:85)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:72)
+	at org.springframework.web.multipart.support.MultipartResolutionDelegate.adaptToMultipartHttpServletRequest(MultipartResolutionDelegate.java:80)
+	at org.springframework.web.multipart.support.MultipartResolutionDelegate.resolveMultipartArgument(MultipartResolutionDelegate.java:103)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.resolveName(RequestParamMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:103)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:158)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:128)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 44 common frames omitted
+Caused by: java.lang.IllegalStateException: No multipart config for servlet
+	at org.eclipse.jetty.server.Request.getParts(Request.java:2311)
+	at org.eclipse.jetty.server.Request.getParts(Request.java:2298)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:92)
+	... 60 common frames omitted

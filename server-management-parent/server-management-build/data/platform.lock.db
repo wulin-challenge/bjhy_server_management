@@ -1,0 +1,6 @@
+#FileLock
+#Tue Jun 13 17:20:13 CST 2017
+hostName=wulin
+id=15ca0c0dcea7fd333c6942f60caf4ffeccdbd7f75e7
+method=file
+server=192.168.0.33\:53452

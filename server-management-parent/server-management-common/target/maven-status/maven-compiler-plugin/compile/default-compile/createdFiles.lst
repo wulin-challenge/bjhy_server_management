@@ -1,0 +1,8 @@
+org\apel\server\management\common\base\ProcessWindows.class
+org\apel\server\management\common\base\LocalParams.class
+org\apel\server\management\common\util\ZipUtil.class
+org\apel\server\management\common\domain\enums\ApplicationTransferEnum.class
+org\apel\server\management\common\util\ProcessUtil$1.class
+org\apel\server\management\common\util\ProcessUtil.class
+org\apel\server\management\common\domain\enums\OperatingSystemEnum.class
+org\apel\server\management\common\base\ProcssLinux.class
